@@ -1,0 +1,45 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pyramid.pkg2;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author icc.caloocan
+ */
+public class Pyramid2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+         Scanner kupal = new Scanner(System.in);
+        
+        int row,col,a,b;
+        
+        System.out.print("Enter number of row:");
+        a = kupal.nextInt();
+        
+        
+        System.out.print("Enter number of colum:");
+        b = kupal.nextInt();
+        
+        
+         for(row = 1; row <=a ;row++)
+        {
+            
+            for(col = 1;col<= row;col++)
+            {
+                System.out.print(row);
+            }
+            System.out.println();
+        }
+    }
+    
+}
